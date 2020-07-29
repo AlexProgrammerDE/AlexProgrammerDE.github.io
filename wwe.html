@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="/cdn-cgi/apps/head/qsjB5bdiBFtZpl8PGSd55rYdNk8.js"></script><link rel="shortcut icon" href="../../mainpictures/favicon.png">
+	<link rel="icon" href="../../mainpictures/favicon.png">
+	<title>Inertia Client</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Inertia Client's Home Page">
+    <meta name="keywords" content="Inertia, Client, Inertia Client, Inertia Hacked Client, Minecraft, Hacked Client, Free Hacks, Free Mods, Free Cheats, Inertia Mod, Free Minecraft Client, Free Minecraft Mod, Better Then Future, Inertia Utility Mod">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>        <style type="text/css">
+        .image {
+                opacity: 1;
+                display: block;
+                width: 100%;
+                height: auto;
+                transition: .5s ease;
+                backface-visibility: hidden;
+            }
+
+            .image:hover {
+                opacity: 0.3;
+            }
+
+            .customrow {
+                display: inline-block;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+
+            @media (min-width: 680px) {
+                .customrow {
+                    width: 100%;
+                }
+            }
+
+            @media (min-width: 750px) {
+                .customrow {
+                    width: 50%;
+                }
+            }
+
+            @media (min-width: 1250px) {
+                .customrow {
+                    width: 33.3333%;
+                }
+            }
+
+            .animationdiv:hover .subpicturesdiv {
+                visibility: visible;
+                opacity: 1;
+                transition: .5s ease;
+            }
+
+            .subpicturesdiv {
+                background: white;
+                border-radius: 5px;
+                border: 1px solid black;
+                height: auto;
+                position: absolute;
+                visibility: hidden;
+                opacity: 0.3;
+                width: 50%;/*ok then*/
+            }
+
+            .subpicturesimg {
+                display: inline-block;
+                width: 50%;
+                height: 100%;
+            }
+
+            .popup-ground {
+                display: none;
+                position: fixed;
+                z-index: 1;
+                padding-top: 100px;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgb(0,0,0);
+                background-color: rgba(0,0,0,0.4);
+            }
+
+            .popup-content {
+                background-color: #fefefe;
+                margin: auto;
+                width: 70%;
+                -webkit-animation-name: fadeIn;
+                -webkit-animation-duration: 0.4s;
+                animation-name: fadeIn;
+                animation-duration: 0.4s;
+                color: black;
+            }
+
+            .embed-container {
+            	position: relative;
+            	padding-bottom: 56.25%;
+            	height: 0;
+            	overflow: hidden;
+            	max-width: 100%;
+            }
+
+            .embed-container iframe, .embed-container object, .embed-container embed {
+            	position: absolute;
+            	top: 0;
+            	left: 0;
+            	width: 100%;
+            	height: 100%;
+            }
+        
+        </style>
+</head>
+
+<body background="mainpictures/background.jpg">
+    <div class="navbar navbar-inverse navbar-static-top">
+	<!--<div class="container">-->
+		<a href="Index.php" class="navbar-left"><img src="../../mainpictures/inertiawebsite.png" style="margin-left: 5px; position: relative; top: 5px;"></a>
+
+
+		<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+
+		<div class="collapse navbar-collapse navHeaderCollapse">
+
+			<ul class="nav navbar-nav navbar-left">
+				<li class="active"><a href="Index.php">Home</a></li>
+				<li class=""><a href="Information.php">Information</a></li>
+				<li class=""><a href="Download.php">Download</a></li>
+				<li class=""><a href="ChangeLog.php">Changelogs</a></li>
+				<li class=""><a href="Credits.php">Credits</a></li>
+				<li class=""><a href="Faq.php">FAQ</a></li>
+				<li class=""><a href="DonationCenter.php">Donation Center</a></li>
+
+			</ul>
+			<a href="https://discordapp.com/invite/QWcrZwP" style="color: #ffffff; margin-right: 1px;" class="navbar-right">Support on<img src="mainpictures/discord.png"></a>
+
+		</div>
+
+	<!--</div>-->
+</div>
+		<div id="img-popup" class="popup-ground" style="z-index: 1000;">
+			<div class="popup-content">
+				<img id="img-popup-img" style="width: 100%;" src="">
+			</div>
+		</div>
+
+        <div id="featured-modal" class="popup-ground" style="z-index: 1000; display: block;">
+			<div class="popup-content" style="border-radius: 5px;">
+                <div>
+                    <h2 style="margin: 0; padding-top: 2%; padding-bottom: 2%; display: inline-block;">Featured Video: </h2>
+                    <span id="close-featured-modal" class="close" style="display: block; margin-top: 1%; margin-right: 1%; opacity: 0.5; font-size: 35px;">×</span>
+                </div>
+                <div class="embed-container">
+                    <iframe style="padding-left: 5%; padding-bottom: 5%; padding-right: 5%;" src="https://www.youtube.com/embed/NgPX4y6_bj0" frameborder='0' allowfullscreen></iframe>
+                </div>
+            </div>
+		</div>
+
+        <div class="indexwrappernowidth">
+            <img src="mainpictures/inertiawebsite.png" class="center" style="width: 35%;">
+            <div class="indexwrapperwidth">
+                <h2 class="doubleUnderline">All the features you could ever need!</h2>
+                <h2>Current Version: 3.0.4</h2><h2>Live Download Count: 317187</h2>         <p>Hover over theses and or click the images</p>
+
+         <!--<h2>Featured videos:</h2>-->
+         <center>
+            <!--<div class="iframe-container">
+               <iframe width="854" height="480" src="https://www.youtube.com/embed/UgOmfQckMEU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>-->
+        </center>
+
+        </div>
+    </div>
+
+        <script type="text/javascript">
+            //TODO: some type of cookie, so we dont display every time
+            window.addEventListener("click", function(event) {
+            	if (event.target == document.getElementById("close-featured-modal")) {
+            		document.getElementById("featured-modal").style.display = "none";
+            	}
+            });
+        </script>
+
+        <footer>
+	<div>
+		<p id="year">&copycurrentyear IKnowImEZ/THEREALWWEFAN231 (Inertia Client). All rights reserved</p>
+	</div>
+
+</footer>
+<script>
+document.getElementById("year").innerHTML = document.getElementById("year").innerHTML.replace("currentyear", new Date().getFullYear());
+</script>
+</body>
+
+</html>
