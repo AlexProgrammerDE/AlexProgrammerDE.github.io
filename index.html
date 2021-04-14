@@ -21,16 +21,6 @@
 		</noscript>
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-                <meta name="google-site-verification" content="QJb55vhb8ECdvRx1rv9lH0WieIxmsZHfl_lZaTRYktQ" />
-                <!-- Global site tag (gtag.js) - Google Analytics -->
-                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157517042-1"></script>
-                <script>
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-
-                  gtag('config', 'UA-157517042-1');
-                </script>
 	</head>
 	<body class="landing">
 
@@ -167,9 +157,7 @@
 			</footer>
 		<script>
 		// When the user scrolls the page, execute myFunction 
-		window.onscroll = function() {myFunction()};
-		
-		function myFunction() {
+		window.onscroll = function scroll() {
 		  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
 		  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
 		  var scrolled = (winScroll / height) * 100;
